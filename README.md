@@ -7,7 +7,7 @@ rules plus a context-gated entropy detector, and ranks what it finds by severity
 
 ```
 go build -o regbait .
-./regbait ./jadx-out
+./regbait ./decoded apk folder
 ```
 
 ## Why the entropy detector is gated
